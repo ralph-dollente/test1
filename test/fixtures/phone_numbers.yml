@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  msisdn: MyString
+  email: MyString
+  status: MyString
+  available_after: 2015-12-16 20:39:15
+  cilantro_identifier: MyString
+
+two:
+  msisdn: MyString
+  email: MyString
+  status: MyString
+  available_after: 2015-12-16 20:39:15
+  cilantro_identifier: MyString
