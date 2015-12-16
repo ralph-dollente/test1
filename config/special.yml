@@ -1,0 +1,9 @@
+development:
+  -
+    email: francis@francis.ph
+    msisdn: 9385888888
+
+production:
+  -
+    email: francis@francis.ph
+    msisdn: 9385888888
