@@ -4,7 +4,8 @@ module Api
       def random
         @options = {
           msisdn: RESERVED_EMAIL.include?(params[:email]) ?
-                    SPECIAL.select{ |x| x["email"] == params[:email] }[0]["msisdn"] : Generator.random,
+                    SPECIAL.select{ |x| x["email"] == params[:email] }[0]["msisdn"] :
+                    Generator.random,
           email: params[:email],
           status: "assigned",
           cilantro_identifier: params[:cilantro_identifier]
