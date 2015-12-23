@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::API
   include ActionController::Serialization
+  before_filter :validate_api_key
 
   private
     def validate_api_key
