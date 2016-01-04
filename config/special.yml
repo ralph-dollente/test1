@@ -1,16 +1,10 @@
 development:
   - email: francis@francis.ph
-    msisdn: 639384888888
+    msisdn: 639389088888
 
 staging: &staging
   - email: francis@francis.ph
-    msisdn: 639384888888
-  - email: zayd@zestly.io
-    msisdn: 639384448888
-  - email: maninoy@yahoo.com
-    msisdn: 639384444444
-  # - email: maaflores7@gmail.com
-  #   msisdn: 639387777777
+    msisdn: 639389088888
 
 production:
   *staging
