@@ -5,6 +5,8 @@ development:
 staging: &staging
   - email: francis@francis.ph
     msisdn: 639389088888
+  - email: sherwins@rocketmail.com
+    msisdn: 639389008888
 
 production:
   *staging
