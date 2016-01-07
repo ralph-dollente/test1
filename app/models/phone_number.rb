@@ -1,3 +1,3 @@
 class PhoneNumber < ActiveRecord::Base
-  validates_uniqueness_of :email, :cilantro_identifier
+  validates_uniqueness_of :cilantro_identifier
 end
