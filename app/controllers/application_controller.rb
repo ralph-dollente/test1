@@ -8,4 +8,8 @@ class ApplicationController < ActionController::API
         render json: { code: 401, errors: [ "API key is missing or invalid" ]}, status: 401
       end
     end
+
+    def render_obj_errors obj=nil
+    	render json: { code: 422, errors: (obj || @obj).errors.full_messages }, status: :unprocessable_entity
+    end
 end
